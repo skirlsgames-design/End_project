@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevJob</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+<header>
+  <h1>DevJob</h1>
+  <nav>
+    <a href="#jobs">Вакансії</a>
+    <a href="#learn">Навчання</a>
+    <a href="#profile">Профіль</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section class="hero">
+    <h2>Знайди роботу в IT 🚀</h2>
+    <p>Вакансії + навчання в одному місці</p>
+  </section>
+
+
+  <select id="levelFilter">
+    <option value="all">Усі рівні</option>
+    <option value="junior">Junior</option>
+    <option value="middle">Middle</option>
+    <option value="senior">Senior</option>
+  </select>
+
+  <section id="jobs">
+    <div class="job123">
+    <h2>Вакансії</h2>
+    </div>
+    <div class="jobs">
+
+      <div class="job" data-level="junior">
+        <h3>Frontend Developer</h3>
+        <span class="tag">Remote</span>
+        <p>Компанія: Google</p>
+        <p>Рівень: Junior</p>
+        <p class="salary">$1000+</p>
+        <button>Відгукнутись</button>
+      </div>
+
+      <div class="job" data-level="middle">
+        <h3>Backend Developer</h3>
+        <span class="tag">Office</span>
+        <p>Компанія: Amazon</p>
+        <p>Рівень: Middle</p>
+        <p class="salary">$2500+</p>
+        <button>Відгукнутись</button>
+      </div>
+
+      <div class="job" data-level="senior">
+        <h3>Frontend Developer</h3>
+        <span class="tag">Remote</span>
+        <p>Компанія: Temu</p>
+        <p>Рівень: Senior</p>
+        <p class="salary">$4500+</p>
+        <button>Відгукнутись</button>
+      </div>
+
+      <div class="job" data-level="middle">
+        <h3>C++ Developer</h3>
+        <span class="tag">Office</span>
+        <p>Компанія: A4 Games</p>
+        <p>Рівень: Middle</p>
+        <p class="salary">$2100+</p>
+        <button>Відукнутись</button>
+      </div>
+
+            <div class="job" data-level="senior">
+        <h3>Python Developer</h3>
+        <span class="tag">Remote</span>
+        <p>Компанія: Google</p>
+        <p>Рівень: Senior</p>
+        <p class="salary">$4000+</p>
+        <button>Відгукнутись</button>
+      </div>
+
+            <div class="job" data-level="junior">
+        <h3>JavaScript Developer</h3>
+        <span class="tag">Office</span>
+        <p>Компанія: Paypal</p>
+        <p>Рівень: Junior</p>
+        <p class="salary">$1500+</p>
+        <button>Відгукнутись</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="learn">
+    <div class="learn123">
+    <h2>Навчання</h2>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>HTML</h3>
+        <p> p - параграф </p>
+      </div>
+
+      <div class="card">
+        <h3>HTML</h3>
+        <p>input — поле вводу</p>
+      </div>
+
+      <div class="card">
+        <h3>CSS</h3>
+        <p>display: flex — вирівнювання</p>
+      </div>
+
+      <div class="card">
+        <h3>JS</h3>
+        <p>console.log() — вивід</p>
+      </div>
+    </div>
+  </section>
+
+<section id="profile">
+  <div class="profile123">
+    <h2>Профіль</h2>
+    
+
+    <div class="profile">
+        <img src="img/завантаження.jfif" alt="Фото профілю">
+
+        <div class="info">
+            <p><strong>Ім'я:</strong> Іван</p>
+            <p><strong>Навички:</strong> HTML, CSS</p>
+            <p><strong>Про себе:</strong> Ще одни програміст в IT сфері</p>
+            <button>Редагувати</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section>
+    <div class="form123">
+    <h2>Створити резюме</h2>
+    </div>
+    <form class="form">
+      <input type="text" placeholder="Ім'я">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Навички">
+      <textarea placeholder="Про себе"></textarea>
+      <button>Створити</button>
+    </form>
+  </section>
+</div>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close"></span>
+    <div class="modal123">
+    <h2>Відгук на вакансію</h2>
+    </div>
+    <form>
+      <input type="text" placeholder="І'мя">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Чому ти підходиш"></textarea>
+      <div class="button123">
+      <button>Відправити</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="script1.js"></script>
+
+<footer>
+  <p>© 2026 DevJob</p>
+</footer>
+</body>
+</html>
